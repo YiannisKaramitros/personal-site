@@ -12,18 +12,17 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a></p>
+        <h2>Yiannis Karamitros</h2>
+        <p><a href="mailto:yiannis.karamitros0817@gmail.com">yiannis.karamitros0817@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi, I&apos;m Yiannis. I am a <a href="https://engineering.lehigh.edu/cse">Lehigh CSE </a>
+        (Computer Science Engineering) Student, currently in my senior year. I have a minor in
+        Economics, and I am interested in Blockchain and Algorithms participating in a research
+        group at Lehigh <a href="https://wordpress.lehigh.edu/sss/">SSS</a> (Scalable Systems & Software).
       </p>
       <ul className="actions">
         <li>
@@ -34,7 +33,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Yiannis Karamitros <Link to="/">yianniskaramitros.com</Link>.</p>
     </section>
   </section>
 );
