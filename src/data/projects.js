@@ -5,10 +5,10 @@ const data = [
     image: '/images/projects/MerckPPX.jpg',
     date: '2015-11-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built for our Capstone project at school. '
+      + 'Merck PPX is a web application that allows Merck '
+      + 'employees to run labels through a machine learning model'
+      + 'instead of doing it one by one.',
   },
   {
     title: 'Harvest',
