@@ -1,9 +1,8 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'Merck PPX',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/MerckPPX.jpg',
     date: '2015-11-20',
     desc:
       'Built for a social impact hackathon. '
