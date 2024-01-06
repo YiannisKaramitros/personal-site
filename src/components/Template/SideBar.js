@@ -28,6 +28,11 @@ const SideBar = () => (
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
+        {/* <li>
+          <button className="button" onClick={handleDownloadResume}>
+            Download Resume
+          </button>
+        </li> */}
       </ul>
     </section>
 
