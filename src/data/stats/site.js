@@ -1,4 +1,4 @@
-import dayjs from 'dayjs';
+// import dayjs from 'dayjs';
 
 /* Keys match keys returned by the github api. Fields without keys are
  * mostly jokes. To see everything returned by the github api, run:
@@ -20,10 +20,10 @@ const data = [
   //   key: 'forks',
   //   link: 'https://github.com/yianniskaramitros/personal-site/network',
   // },
-  // {
-  //   label: 'Number of spoons',
-  //   value: '0',
-  // },
+  {
+    label: 'Last updated at',
+    value: 'January 6th, 2024',
+  },
   // {
   //   label: 'Number of linter warnings',
   //   value: '0', // enforced via github workflow
@@ -33,12 +33,12 @@ const data = [
   //   key: 'open_issues_count',
   //   link: 'https://github.com/yianniskaramitros/personal-site/issues',
   // },
-  {
-    label: 'Last updated at',
-    key: 'pushed_at',
-    link: 'https://github.com/yianniskaramitros/personal-site/commits',
-    format: (x) => dayjs(x).format('MMMM DD, YYYY'),
-  },
+  // {
+  //   label: 'Last updated at',
+  //   key: 'pushed_at',
+  //   link: 'https://github.com/yianniskaramitros/personal-site/commits',
+  //   format: (x) => dayjs(x).format('MMMM DD, YYYY'),
+  // },
   // {
   //   // TODO update this with a pre-commit hook
   //   /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |

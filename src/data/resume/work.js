@@ -13,156 +13,126 @@
  */
 const work = [
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
-    highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
-    ],
-  },
-  {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-vc fund focused on Angel, Seed, and Series-A
-    YC companies.`,
-    highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise several startups in the fund.',
-    ],
-  },
-  {
-    name: 'Arthena',
-    position: 'Co-founder & C.T.O.',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href="https://www.anthemis.com/">Athemis</a>,
-    <a href="https://foundationcapital.com">Foundation Capital</a>, and <a href="https://ycombinator.com/">YC</a>.
-    We develop quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were acquired by
-    <a href="https://www.masterworks.com/">Masterworks</a> in 2023.`,
-    highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
-    ],
-  },
-  {
-    name: 'Enveritas',
-    position: 'ML Engineering Contractor',
-    url: 'http://enveritas.org',
-    startDate: '2016-09-01',
-    endDate: '2018-01-01',
-    summary: `Enveritas is a non-profit that works with coffee farmers to improve their livelihoods.
-    I joined on day one and helped build a variety of tools to collect and analyze data. I also advised
-    on technical strategy, helped hire engineers, and advised on their YC application.`,
-    highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM\'s, and other techniques.',
-    ],
-  },
-  {
-    name: 'Zenysis',
-    position: 'Software Engineering Contractor',
-    url: 'https://zenysis.com',
-    startDate: '2016-02-01',
-    endDate: '2016-03-01',
-    summary: `Zenysis develops data analysis and visualization tools for government agencies and international organizations.
-    Their solutions help improve decision-making by integrating and analyzing large-scale datasets from various sources.
-    I was the second contributor to the codebase. We built data visualization tools and tackled complex data ingestion
-    challenges for the Ethiopian Ministry of Health.`,
-    highlights: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2015-07-01',
-    endDate: '2016-01-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors. Detectors help customers identify objects,
-    events, or patterns in images and videos without requiring machine learning or coding expertise. I played a crucial role in
-    defining the company's vision. I was responsible for architecting and building the initial product. I left shortly after the
-    Series A to focus on Arthena.`,
-    highlights: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Caffe, Node.JS, Redis, MongoDB, and other technologies.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
-    highlights: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    name: 'Planetary Resources',
-    position: 'Avionics Intern',
-    startDate: '2014-01-01',
-    endDate: '2014-05-01',
-    url: 'http://planetaryresources.com',
-    highlights: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    name: 'Facebook',
+    name: 'CSAA Insurance Group, a AAA Insurer',
     position: 'Software Engineer Intern',
-    url: 'https://facebook.com',
-    startDate: '2013-06-01',
-    endDate: '2013-09-01',
+    url: 'https://csaa-insurance.aaa.com/content/aaa-ie/b2c/en/homepage.html/',
+    startDate: '2023-05-23',
+    endDate: '2023-08-10',
+    summary: 'Remote',
     highlights: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM\'s during triage to assist in risk mitigation.',
+      'Shadowed senior managers in the Application Security team to gain insights on roles and responsibilities of technical vulnerabilities',
+      'Assessed vulnerability testing to identify and prioritize vulnerabilities based on severity, type, or time with Fortify and Burpsuite',
+      'Executed a dashboard project for DevOps teams starting from design to implementation for comprehensible graphs and visuals of data',
     ],
   },
   {
-    name: 'SEDS-USA',
-    position: 'At Large Board Member',
-    url: 'http://seds.org',
-    startDate: '2013-10-01',
-    endDate: '2014-10-01',
+    name: 'Lehigh University',
+    position: 'Undergraduate Blockchain Research Assistant',
+    url: 'https://wordpress.lehigh.edu/sss/',
+    startDate: '2023-01-20',
+    summary: 'Blockchain Research of Hierarchial Consensus',
     highlights: [
-      'Elected to Board of Directors of the USA\'s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
+      'Conducted a custom implementation and application of a consensus algorithm for Central Bank Digital Currencies (CBDCs)',
+      'Isolating a widely used consensus algorithm (SCP) and successfully simulated test cases for different global central banks',
+      'Present weekly findings and accomplishments as well as future plans to 15+ professors and students once a week',
     ],
   },
   {
-    name: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
+    name: 'SinLuz Ingeniería y Arquitectura',
+    position: 'Data Science Intern',
+    url: 'https://www.linkedin.com/company/sinluz-ingenier-a-y-arquitectura-slp/about/',
+    startDate: '2022-05-025',
+    endDate: '2022-06-25',
+    summary: 'Barceloa, Spain',
     highlights: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
+      'Evaluate and debug algorithms that interpret images to solve computer vision problems for 800+ images in the construction sector',
+      'Utilized the OpenCV Python library to implement new algorithmic solutions for scaling axis and features for over 800 images',
+      'Rendered graphical results of convolutional neural networks, with scale, colors, brightness of sample, and location factors using Pandas',
+      'Examined and restructured patterns in code for efficiency and documented code that aided in readability for future employees',
+    ],
+  },
+  {
+    name: 'Lehigh University',
+    position: 'Computer Science Teaching Assistant and Grader',
+    url: 'https://engineering.lehigh.edu/cse',
+    startDate: '2023-08-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Graded a series of assignments and projects for 50+ students in the computer science department classes like CSE340, CSE303, and CSE242',
+    ],
+  },
+  {
+    name: 'Lehigh University',
+    position: 'System Administrator',
+    url: 'https://engineering.lehigh.edu/cse',
+    startDate: '2022-09-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Closely monitored manager on 10+ system admin projects to understand workloads of the faculty in the computer science department',
+      'Research information in the IT space and troubleshoot problems or issues varying from network security to loss of passwords',
+      'Exploration of Flask, SQLAlchemy, and other Python libraries for the implementation of a website to log hours for the department',
+    ],
+  },
+  {
+    name: 'Lehigh University',
+    position: 'Computer Science Engineering Lab Monitor',
+    url: 'https://engineering.lehigh.edu/cse',
+    startDate: '2021-08-10',
+    endDate: '2022-10-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Monitored the equipment and daily activity in computer science labs, ensuring smooth operations and efficient use of resources',
+      'Maintained lab environment of 50+ computers, performed regular maintenance and assisted students with computer operations',
+    ],
+  },
+  {
+    name: 'ACME Markets',
+    position: 'Courtesy Clerk',
+    url: 'https://local.acmemarkets.com/pa/doylestown/480-n-main-st.html',
+    startDate: '2017-10-10',
+    endDate: '2021-08-10',
+    summary: 'Doylestown, PA',
+    highlights: [
+      'Assisted in maintaining and facilitating daily operations at ACME Markets across 4 or more departments needing help',
+      'Closely monitored and analyzed supervisors performance, effectively delegated tasks to departments needing improvement',
+      'Ensuring the quality and quantity of 200+ products for filling of shelves in the produce or dairy department and reporting loss prevention',
+    ],
+  },
+  {
+    name: 'Lehigh University',
+    position: 'Campus Sustainable Impact Fellow',
+    url: 'https://creativeinquiry.lehigh.edu/mountaintop-programs/campus-sustainable-impact-fellowship',
+    startDate: '2022-01-10',
+    endDate: '2022-12-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Organized and conducted studies on 100+ first-year students throughout campus to change recycling habits and increase sustainability',
+      'Researched and analyzed plastic contamination to improve campus habits for technical implementation of our venture',
+    ],
+  },
+  {
+    name: 'Sigma Phi Delta Professional Engineering Fraternity',
+    position: 'Various Positions',
+    url: 'https://creativeinquiry.lehigh.edu/mountaintop-programs/campus-sustainable-impact-fellowship',
+    startDate: '2021-04-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Fundraising Chair: ',
+      'Guide: ',
+      'Chaplain: ',
+      'Creative Merch Chair: ',
+    ],
+  },
+  {
+    name: 'Lehigh Mentor Collective',
+    position: 'Computer Science Engineering Peer Mentor',
+    url: 'https://diversityandinclusion.lehigh.edu/studentsuccess/mentor-collective',
+    startDate: '2021-08-10',
+    endDate: '2022-05-10',
+    summary: 'Bethlehem, PA',
+    highlights: [
+      'Peer mentor a small group of 5 first year Engineering students to help navigate their first year',
+      'Conducted monthly check in meetings to help point people in the right direction and give resources and guidance',
     ],
   },
 ];

@@ -18,10 +18,13 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>
-          Feel free to get in touch. You can email me at:
+          Feel free to get in touch. You can email me or call me at:
         </p>
         <p>
           yiannis.karamitros0817@gmail.com
+        </p>
+        <p>
+          215-815-1160
         </p>
         {/* <EmailLink /> */}
       </div>
