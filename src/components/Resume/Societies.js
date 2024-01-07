@@ -5,7 +5,7 @@ import Society from './Societies/Society';
 
 const Societies = ({ data }) => (
   <div className="societies">
-    <div className="link-to" id="society" />
+    <div className="link-to" id="societies" />
     <div className="title">
       <h3>Societies</h3>
     </div>
