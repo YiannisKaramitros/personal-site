@@ -30,10 +30,12 @@ const SideBar = () => {
 
       <section className="blurb">
         <h2>About</h2>
-        <p>Hi, I&apos;m Yiannis. I am a <a href="https://engineering.lehigh.edu/cse">Lehigh CSE </a>
-          (Computer Science Engineering) Student, currently in my senior year. I have a minor in
-          Economics, and I am interested in Blockchain and Algorithms participating in a research
-          group at Lehigh <a href="https://wordpress.lehigh.edu/sss/">SSS</a> (Scalable Systems & Software).
+        <p>Hi, I&apos;m Yiannis! I am a <a href="https://engineering.lehigh.edu/cse">CSE Major </a>
+          (Computer Science Engineering) at Lehigh University, currently in my senior year. I have
+          a minor in Economics. I am specifically interested in Blockchain and Algorithms
+          participating in a research group at Lehigh called <a href="https://wordpress.lehigh.edu/sss/">SSS </a>
+          (Scalable Systems & Software). Where I study the hierarchial consensus
+          of Central Bank Digital Currencies.
         </p>
         <ul className="actions">
           <li>
