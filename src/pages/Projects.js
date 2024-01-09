@@ -15,7 +15,7 @@ const Projects = () => (
       <header>
         <div className="title">
           <h2><Link to="/projects">Projects</Link></h2>
-          <p>A selection of projects that I&apos;m not too ashamed of.</p>
+          {/* <p>A selection of projects that I&apos;m not too ashamed of.</p> */}
           <p>All projects and code on my <a href="https://github.com/yianniskaramitros">github</a></p>
         </div>
       </header>

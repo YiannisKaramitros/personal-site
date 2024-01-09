@@ -52,6 +52,7 @@ const SideBar = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">&copy; Yiannis Karamitros <Link to="/">yianniskaramitros.com</Link>.</p>
+        <p className="copyright2"> Original Template Designed by <Link to="https://mldangelo.com/">mldangelo.com</Link>.</p>
       </section>
     </section>
   );
