@@ -5,7 +5,7 @@ const Society = ({ data }) => (
   <article className="society-container">
     <header>
       <h4 className="society">{data.society}</h4>
-      <p className="school"><a href={data.link}>{data.school}</a>, {data.year}</p>
+      <p className="school"><a href={data.link} target="_blank" rel="noopener noreferrer">{data.school}</a>, {data.year}</p>
     </header>
   </article>
 );

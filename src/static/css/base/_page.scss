@@ -24,7 +24,6 @@
 		}
 
 	body {
-		background: _palette(bg-alt);
 
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
@@ -34,5 +33,4 @@
 					@include vendor('transition', 'none !important');
 				}
 			}
-
 	}

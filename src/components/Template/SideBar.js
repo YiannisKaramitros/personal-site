@@ -30,12 +30,11 @@ const SideBar = () => {
 
       <section className="blurb">
         <h2>About</h2>
-        <p>Hi, I&apos;m Yiannis! I am a <a href="https://engineering.lehigh.edu/cse">CSE Major </a>
-          (Computer Science Engineering) at Lehigh University, currently in my senior year. I have
-          a minor in Economics. I am specifically interested in Blockchain and Algorithms
-          participating in a research group at Lehigh called <a href="https://wordpress.lehigh.edu/sss/">SSS </a>
-          (Scalable Systems & Software). Where I study the hierarchial consensus
-          of Central Bank Digital Currencies.
+        <p>Hi, I&apos;m Yiannis! I am a current senior majoring in Computer Science Engineering <a href="https://engineering.lehigh.edu/cse">(CSE) </a>
+          with a minor in Economics at Lehigh University. I am passionate about my research
+          in Blockchain and Algorithms with the Scalable Systems & Software <a href="https://wordpress.lehigh.edu/sss/">(SSS) </a>
+          research team here at Lehigh. My area of specialization is in hierarchial consensus
+          of Central Bank Digital Currencies <a href="https://www.federalreserve.gov/cbdc-faqs.htm">(CBDCs) </a>.
         </p>
         <ul className="actions">
           <li>
@@ -52,7 +51,7 @@ const SideBar = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">&copy; Yiannis Karamitros <Link to="/">yianniskaramitros.com</Link>.</p>
-        <p className="copyright2"> Original Template Designed by <Link to="https://mldangelo.com/">mldangelo.com</Link>.</p>
+        <p className="copyright2"> Original Template Designed by <Link to="https://mldangelo.com/" target="_blank" rel="noopener noreferrer">mldangelo.com</Link>.</p>
       </section>
     </section>
   );

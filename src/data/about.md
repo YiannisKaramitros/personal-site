@@ -7,7 +7,7 @@ I am Yiannis Karamitros, a senior Computer Science Engineering major at Lehigh U
 - Sport: Basketball
 - Food: Buffalo Chicken
 - TV Show: Black Mirror
-- Movie: The Boys In The Boat
+- Movie: Fantastic Mr. Fox
 - Color: Olive Green (Though I do not like the taste of olives)
 - Book: Moonwalking with Einstein 
 - Podcast: Ear Biscuits
