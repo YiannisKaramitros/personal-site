@@ -112,15 +112,11 @@ const work = [
   },
   {
     name: 'Sigma Phi Delta Professional Engineering Fraternity',
-    position: 'Various Positions',
+    position: 'Various Positions (Fundraising Chair, Guide, Chaplain, Creative Merchandise Chair, ) ',
     url: 'https://lehighspd.org/',
     startDate: '2021-04-10',
     summary: 'Bethlehem, PA',
     highlights: [
-      'Fundraising Chair',
-      'Guide',
-      'Chaplain',
-      'Creative Merchandise Chair',
       'Oversee wellbeing of 60+ active members, assisting with internal problem solving and conflict resolution by being the mediator',
       'Interpersonal liaison between members and executive leaders, meeting weekly with the executive board for fraternity wellbeing',
       'Conduct one-on-one meetings with members dealing with personal or academic issues to support and share resources they may need',
