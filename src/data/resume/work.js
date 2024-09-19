@@ -14,6 +14,18 @@
 const work = [
   {
     name: 'CSAA Insurance Group, a AAA Insurer',
+    position: 'Software Engineer I',
+    url: 'https://csaa-insurance.aaa.com/content/aaa-ie/b2c/en/homepage.html/',
+    startDate: '2024-07-08',
+    summary: 'Remote',
+    highlights: [
+      'Conduct daily tasks for the Application Security Team and contact other team leads on news or concerns in applications',
+      'Identify and manage 2600+ repositories, assessing their usage and organizing based on characteristics to improve efficiency',
+      'Assess vulnerability testing to identify and prioritize vulnerabilities based on severity, type, or time with Burpsuite',
+    ],
+  },
+  {
+    name: 'CSAA Insurance Group, a AAA Insurer',
     position: 'Software Engineer Intern',
     url: 'https://csaa-insurance.aaa.com/content/aaa-ie/b2c/en/homepage.html/',
     startDate: '2023-05-23',
@@ -30,6 +42,7 @@ const work = [
     position: 'Undergraduate Blockchain Research Assistant',
     url: 'https://wordpress.lehigh.edu/sss/',
     startDate: '2023-01-20',
+    endDate: '2024-05-19',
     summary: 'Blockchain Research of Hierarchial Consensus',
     highlights: [
       'Conducted a custom implementation and application of a consensus algorithm for Central Bank Digital Currencies (CBDCs)',
@@ -43,7 +56,7 @@ const work = [
     url: 'https://www.linkedin.com/company/sinluz-ingenier-a-y-arquitectura-slp/about/',
     startDate: '2022-05-025',
     endDate: '2022-06-25',
-    summary: 'Barceloa, Spain',
+    summary: 'Barcelona, Spain',
     highlights: [
       'Evaluate and debug algorithms that interpret images to solve computer vision problems for 800+ images in the construction sector',
       'Utilized the OpenCV Python library to implement new algorithmic solutions for scaling axis and features for over 800 images',
@@ -56,9 +69,11 @@ const work = [
     position: 'Computer Science Teaching Assistant and Grader',
     url: 'https://engineering.lehigh.edu/cse',
     startDate: '2023-08-10',
+    endDate: '2024-05-19',
     summary: 'Bethlehem, PA',
     highlights: [
-      'Graded a series of assignments and projects for 50+ students in the computer science department classes like CSE340, CSE303, and CSE242',
+      'Answers student questions about homework, programming projects or class lectures through hosting office hours',
+      'Grade exams, homework, and programming assignments for 200+ students in three different Computer Science classes',
     ],
   },
   {
@@ -66,6 +81,7 @@ const work = [
     position: 'System Administrator',
     url: 'https://engineering.lehigh.edu/cse',
     startDate: '2022-09-10',
+    endDate: '2024-05-19',
     summary: 'Bethlehem, PA',
     highlights: [
       'Closely monitored manager on 10+ system admin projects to understand workloads of the faculty in the computer science department',
@@ -112,9 +128,10 @@ const work = [
   },
   {
     name: 'Sigma Phi Delta Professional Engineering Fraternity',
-    position: 'Various Positions (Fundraising Chair, Guide, Chaplain, Creative Merchandise Chair, ) ',
+    position: 'Various Positions (Fundraising Chair, Guide, Chaplain, Creative Merchandise Chair) ',
     url: 'https://lehighspd.org/',
     startDate: '2021-04-10',
+    endDate: '2024-05-19',
     summary: 'Bethlehem, PA',
     highlights: [
       'Oversee wellbeing of 60+ active members, assisting with internal problem solving and conflict resolution by being the mediator',
