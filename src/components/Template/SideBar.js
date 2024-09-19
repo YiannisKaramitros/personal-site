@@ -10,7 +10,7 @@ const SideBar = () => {
     const fileUrl = `${PUBLIC_URL}/resumes/08_09_2024Resume_Karamitros.pdf`;
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'ykaramitros_resume.pdf';
+    link.download = 'ykaramitros_resume1.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
