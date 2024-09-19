@@ -22,7 +22,7 @@ const data = [
   // },
   {
     label: 'Last updated at',
-    value: 'January 9th, 2024',
+    value: 'April 23rd, 2024',
   },
   // {
   //   label: 'Number of linter warnings',
