@@ -7,7 +7,7 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const SideBar = () => {
   const handleDownloadResume = () => {
-    const fileUrl = `${PUBLIC_URL}/resumes/ykaramitros_resume.pdf`;
+    const fileUrl = `${PUBLIC_URL}/resumes/08_09_2024Resume_Karamitros.pdf`;
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'ykaramitros_resume.pdf';
