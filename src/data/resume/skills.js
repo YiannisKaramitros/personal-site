@@ -9,11 +9,16 @@ const skills = [
     competency: 3,
     category: ['Web Development', 'Tools'],
   },
-  // {
-  //   title: 'Node.JS',
-  //   competency: 5,
-  //   category: ['Web Development', 'Javascript'],
-  // },
+  {
+    title: 'Jira / Confluence',
+    competency: 5,
+    category: ['Tools'],
+  },
+  {
+    title: 'Burp Suite',
+    competency: 3,
+    category: ['Tools'],
+  },
   {
     title: 'React',
     competency: 2,
