@@ -12,7 +12,7 @@ const Index = () => (
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
-            A beautiful
+            Yiannis Alexandros Karamitros Personal Site! Check it out
           </p>
         </div>
       </header>
