@@ -8,7 +8,7 @@ const Index = () => (
     description="Yiannis Karamitros personal website."
   >
     <article className="post" id="index">
-    <header>
+      <header>
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>

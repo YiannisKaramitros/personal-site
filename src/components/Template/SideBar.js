@@ -30,7 +30,7 @@ const SideBar = () => {
 
       <section className="blurb">
         <h2>About</h2>
-        <p>Hi, I&apos;m Yiannis! I am a current senior majoring in Computer Science Engineering <a href="https://engineering.lehigh.edu/cse">(CSE) </a>
+        <p>Hi, I&apos;m Yiannis! I am a current Graduate majoring in Computer Science Engineering <a href="https://engineering.lehigh.edu/cse">(CSE) </a>
           with a minor in Economics at Lehigh University. I am passionate about my research
           in Blockchain and Algorithms with the Scalable Systems & Software <a href="https://wordpress.lehigh.edu/sss/">(SSS) </a>
           research team here at Lehigh. My area of specialization is in hierarchial consensus
