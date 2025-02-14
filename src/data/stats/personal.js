@@ -25,20 +25,25 @@ const data = [
     value: <Age />,
   },
   {
+    key: 'location',
+    label: 'Current city',
+    value: 'Doylestown, PA',
+  },
+  {
     key: 'countries',
     label: 'Countries visited',
     value: 11,
     // link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
   },
   {
-    key: 'location',
-    label: 'Current city',
-    value: 'Doylestown, PA',
-  },
-  {
     key: 'language',
     label: 'Current language learning',
     value: 'Greek',
+  },
+  {
+    key: 'puzzle',
+    label: 'Biggest Jigsaw Puzzle Completed',
+    value: '1000 Pieces',
   },
 ];
 
