@@ -5,7 +5,7 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('2001-08-17T17:34:00');
+    const birthTime = new Date('2001-08-17T18:27:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
 
@@ -18,6 +18,24 @@ const Age = () => {
   return <>{age}</>;
 };
 
+const NextVacation = () => {
+  const [nextVacation, setNextVacation] = useState();
+
+  const tick = () => {
+    const divisor = 1000 * 60 * 60 * 24; //* 365.2421897; // ms in an average year
+    const vacationTime = new Date('2025-05-23T12:00:00');
+    setNextVacation(((vacationTime - Date.now()) / divisor).toFixed(11));
+  };
+
+  useEffect(() => {
+    const timer = setInterval(() => tick(), 25);
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+  return <>{nextVacation}</>;
+};
+
 const data = [
   {
     key: 'age',
@@ -27,7 +45,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Doylestown, PA',
+    value: 'South Bend, Indiana',
   },
   {
     key: 'countries',
@@ -42,8 +60,23 @@ const data = [
   },
   {
     key: 'puzzle',
-    label: 'Biggest Jigsaw Puzzle Completed',
+    label: 'Biggest jigsaw puzzle completed',
     value: '1000 Pieces',
+  },
+  {
+    key: 'photos',
+    label: 'Photos in my camera roll',
+    value: '8,888',
+  },
+  {
+    key: 'mile',
+    label: 'Personal best mile time',
+    value: '8:35',
+  },
+  {
+    key: 'next vacation',
+    label: 'Days Until Next Vacation',
+    value: <NextVacation />,
   },
 ];
 
