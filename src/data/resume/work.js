@@ -22,6 +22,7 @@ const work = [
       'Conduct daily tasks for the Application Security Team and contact other team leads on news or concerns in applications',
       'Identify and manage 2600+ repositories, assessing their usage and organizing based on characteristics to improve efficiency',
       'Assess vulnerability testing to identify and prioritize vulnerabilities based on severity, type, or time with Burpsuite',
+      'Performs Manual Dynamic Application Security Scans (DAST) on 100s of APIs highlighting faults or security issues at development',
     ],
   },
   {

@@ -15,6 +15,21 @@ const skills = [
     category: ['Tools'],
   },
   {
+    title: 'Haskell',
+    competency: 1,
+    category: ['Languages'],
+  },
+  {
+    title: 'Rust',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Microsoft Office Suite',
+    competency: 5,
+    category: ['Tools'],
+  },
+  {
     title: 'Burp Suite',
     competency: 3,
     category: ['Tools'],
@@ -54,11 +69,11 @@ const skills = [
   //   competency: 2,
   //   category: ['Web Development', 'Databases'],
   // },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
+  // {
+  //   title: 'PostgreSQL/SQLite3/SQL/Redshift',
+  //   competency: 4,
+  //   category: ['Web Development', 'Databases', 'Languages'],
+  // },
   // {
   //   title: 'Redis',
   //   competency: 3,
@@ -84,11 +99,11 @@ const skills = [
     competency: 1,
     category: ['Web Development', 'Python'],
   },
-  {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
+  // {
+  //   title: 'FastAPI',
+  //   competency: 3,
+  //   category: ['Web Development', 'Python'],
+  // },
   // {
   //   title: 'Git/Mercurial',
   //   competency: 3,
@@ -141,7 +156,7 @@ const skills = [
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 1,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
