@@ -8,13 +8,15 @@ import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
 import Societies from '../components/Resume/Societies';
+import Languages from '../components/Resume/Languages';
 
 // import References from '../components/Resume/References';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
-import societies from '../data/resume/societiess';
+import societies from '../data/resume/societies';
+import languages from '../data/resume/languages';
 import { skills, categories } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
@@ -24,6 +26,7 @@ const sections = {
   Skills: () => <Skills skills={skills} categories={categories} />,
   Courses: () => <Courses data={courses} />,
   Societies: () => <Societies data={societies} />,
+  Languages: () => <Languages data={languages} />,
   // Minor_Courses: () => <Courses data={courses} />,
   // Graduate_Courses: () => <Courses data={courses} />,
   // References: () => <References />,

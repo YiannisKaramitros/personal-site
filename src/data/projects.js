@@ -20,9 +20,9 @@ const data = [
       + 'Merck PPX is a web application that allows Merck '
       + 'employees to run labels through a machine learning model '
       + 'instead of doing it manually one by one. '
-      + 'We Utilized Python and ML/NLP libraries to test, train, and validate machine '
+      + 'We utilized Python and ML/NLP libraries to test, train, and validate machine '
       + 'learning approaches to a 10,000+ data point manufacturing lake. And '
-      + 'Developed an easy web application leveraging ML/NLP techniques to '
+      + 'developed an easy web application leveraging ML/NLP techniques to '
       + 'reduce human effort and improve accuracy for contextualizing data',
   },
 ];
