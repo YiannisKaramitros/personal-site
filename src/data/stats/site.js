@@ -5,7 +5,7 @@ const Lastupdate = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24; // (if I want Days) * 365.2421897 (if I want years);
-    const updateTime = new Date('2025-02-14T14:27:00');
+    const updateTime = new Date('2025-02-19T12:00:00');
     setlastupdatetime(((Date.now() - updateTime) / divisor).toFixed(11));
   };
 
@@ -39,7 +39,7 @@ const SinceCreated = () => {
 const data = [
   {
     label: 'Last updated at',
-    value: 'February 14th, 2025',
+    value: 'February 19th, 2025',
   },
   {
     label: 'Days since last update',

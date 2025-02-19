@@ -1,6 +1,8 @@
 # Intro
 
-I am Yiannis Karamitros, a senior Computer Science Engineering major at Lehigh University with a minor in Economics. I originally grew up in Doylestown, Pennsylvania but have family all over the globe. As the first person in my family to attend a standard 4-year college degree I always thought I was special and wanted to show that. I love pushing myself in ways of taking graduate classes as an undergrad or participating in personal coding projects. My fascination of technology started when I was a young boy playing video games, it then grew into me building my very own computer in middle school and now I am about to graduate with a Computer Science degree!
+I am Yiannis Karamitros, a Software Engineer I at CSAA Insurance Group, A AAA Insurer on the Cybersecurity team. I am a recent graduate of Computer Science Engineering at Lehigh University with a minor in Economics. I originally grew up in Doylestown, Pennsylvania but have family all over the globe. As the first person in my family to attend a standard 4-year college degree I always thought I was special and wanted to show that. I love pushing myself in ways of taking graduate classes as an undergrad or participating in personal coding projects. My fascination of technology started when I was a young boy playing video games, it then grew into me building my very own computer in middle school and now I am a graduate with a Computer Science degree!
+<br><br>
+During my time at Lehigh University, I was a student of the P.C. Rossin College of Engineering and Applied Science studying Computer Science Engineering with a minor in Economics. I was involved in different extracurricular activities across campus including membership in Sigma Phi Delta (Professional Engineering Fraternity), a research student for Blockchain Technologies and its use cases, and participating in a work study program as a System Administrator.
 
 # A few of my favorite things
 
@@ -11,6 +13,9 @@ I am Yiannis Karamitros, a senior Computer Science Engineering major at Lehigh U
 - Color: Olive Green (Though I do not like the taste of olives)
 - Book: Moonwalking with Einstein 
 - Podcast: Ear Biscuits
+- Hobbies: Video Games, Jigsaw Puzzles, Cooking
+- Sports Teams: All Philadelphia sports
+- College Sports Teams: Lehigh University and Notre Dame University
 
 # Fun facts
 
