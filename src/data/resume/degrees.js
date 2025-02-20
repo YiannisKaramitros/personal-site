@@ -4,7 +4,7 @@ const degrees = [
     degree: 'B.S. Computer Science Engineering',
     minor: 'Minor in Economics',
     link: 'https://www2.lehigh.edu/',
-    year: 2024,
+    year: '2020 - 2024',
   },
 ];
 

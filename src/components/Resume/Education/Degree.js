@@ -17,7 +17,7 @@ Degree.propTypes = {
     minor: PropTypes.string,
     link: PropTypes.string.isRequired,
     school: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
+    year: PropTypes.string.isRequired,
   }).isRequired,
 };
 

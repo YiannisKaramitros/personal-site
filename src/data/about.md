@@ -28,3 +28,7 @@ During my time at Lehigh University, I was a student of the P.C. Rossin College 
 - Treating every individual with genuine kindness and respect.
 - Staying curious and continuing my love of learning.
 - Continually improving.
+
+# A little bit about my undergraduate research
+
+fjdaskljjkald;jfjak;jf

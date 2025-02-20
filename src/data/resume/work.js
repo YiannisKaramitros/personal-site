@@ -44,7 +44,7 @@ const work = [
     url: 'https://wordpress.lehigh.edu/sss/',
     startDate: '2023-01-20',
     endDate: '2024-05-19',
-    summary: 'Blockchain Research of Hierarchial Consensus',
+    summary: 'Bethlehem, PA',
     highlights: [
       'Conducted a custom implementation and application of a consensus algorithm for Central Bank Digital Currencies (CBDCs)',
       'Isolating a widely used consensus algorithm (SCP) and successfully simulated test cases for different global central banks',
