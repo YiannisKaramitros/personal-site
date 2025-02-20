@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+// Maybe some stats for website
+// Age in days and age in seconds and age in minutes and age in hours
+// Days without injury stat page stat
+// water intake per day stat page stat
+// Days since graduating undergrad
+// Time since covid
+
 const Age = () => {
   const [age, setAge] = useState();
 
