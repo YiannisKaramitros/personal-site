@@ -40,7 +40,7 @@ const SideBar = () => {
           Algorithms with the Scalable Systems & Software <a href="https://wordpress.lehigh.edu/sss/">(SSS) </a>
           research team at Lehigh. My research specialization is in hierarchial consensus
           of Central Bank Digital Currencies <a href="https://www.federalreserve.gov/cbdc-faqs.htm">(CBDCs) </a>.
-          I hope pivot my career and work somewhere where I can combine my
+          I hope to pivot my career and work somewhere where I can combine my
           skills of Cybersecurity and interest in Blockchain.
         </p>
         <ul className="actions">

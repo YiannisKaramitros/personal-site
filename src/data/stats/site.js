@@ -5,7 +5,7 @@ const Lastupdate = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24; // (if I want Days) * 365.2421897 (if I want years);
-    const updateTime = new Date('2025-02-19T12:00:00');
+    const updateTime = new Date('2025-03-31T12:00:00');
     setlastupdatetime(((Date.now() - updateTime) / divisor).toFixed(11));
   };
 

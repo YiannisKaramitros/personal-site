@@ -73,7 +73,7 @@ const data = [
   {
     key: 'photos',
     label: 'Photos in my camera roll',
-    value: '8,888',
+    value: '9,052',
   },
   {
     key: 'mile',
